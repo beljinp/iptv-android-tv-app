@@ -127,12 +127,10 @@ class M3UParser {
         val matcher = TVG_INFO_PATTERN.matcher(info)
         
         while (matcher.find()) {
-            when {
-                matcher.group(1) != null -> attributes["tvg-id"] = matcher.group(1)
-                matcher.group(2) != null -> attributes["tvg-name"] = matcher.group(2)
-                matcher.group(3) != null -> attributes["tvg-logo"] = matcher.group(3)
-                matcher.group(4) != null -> attributes["group-title"] = matcher.group(4)
-            }
+            matcher.group(1)?.let { attributes["tvg-id"] = it }
+            matcher.group(2)?.let { attributes["tvg-name"] = it }
+            matcher.group(3)?.let { attributes["tvg-logo"] = it }
+            matcher.group(4)?.let { attributes["group-title"] = it }
         }
         
         return attributes
@@ -147,7 +145,7 @@ class M3UParser {
         val matcher = TVG_INFO_PATTERN.matcher(info)
         
         while (matcher.find()) {
-            title = title.replace(matcher.group(0), "")
+            matcher.group(0)?.let { title = title.replace(it, "") }
         }
         
         return title.trim().replace(Regex("\\s+"), " ")
