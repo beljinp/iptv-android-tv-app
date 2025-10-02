@@ -40,7 +40,7 @@
         <activity
             android:name=".ui.SetupActivity"
             android:exported="false"
-            android:theme="@style/Theme.Leanback.GuidedStep" />
+            android:theme="@style/Theme.Leanback" />
 
     </application>
 

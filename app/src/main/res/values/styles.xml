@@ -17,11 +17,11 @@
     </style>
 
     <!-- Guided step theme for setup -->
-    <style name="Theme.Leanback.GuidedStep" parent="Theme.Leanback.GuidedStep.Half">
+    <style name="Theme.Leanback.GuidedStep" parent="Theme.Leanback">
         <item name="guidedStepTheme">@style/GuidedStepTheme</item>
     </style>
 
-    <style name="GuidedStepTheme" parent="Widget.Leanback.GuidedStepTheme">
+    <style name="GuidedStepTheme" parent="Theme.Leanback">
         <item name="guidedStepBackground">@color/background_color</item>
     </style>
 </resources>
