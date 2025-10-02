@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IPTV Player</string>
+    
+    <!-- Setup strings -->
+    <string name="setup_title">IPTV Setup</string>
+    <string name="setup_description">Enter your IPTV server details</string>
+    <string name="host_label">Host URL</string>
+    <string name="host_hint">http://starshare.net:80</string>
+    <string name="username_label">Username</string>
+    <string name="username_hint">Enter username</string>
+    <string name="password_label">Password</string>
+    <string name="password_hint">Enter password</string>
+    <string name="save_button">Save Settings</string>
+    
+    <!-- Main screen strings -->
+    <string name="tv_channels">TV Channels</string>
+    <string name="movies">Movies</string>
+    <string name="loading">Loading content...</string>
+    
+    <!-- Error strings -->
+    <string name="error_connection">Connection failed. Please check your settings.</string>
+    <string name="error_vlc_not_installed">VLC Media Player is not installed. Please install it from the Play Store.</string>
+    <string name="error_invalid_url">Please enter a valid URL</string>
+    <string name="error_empty_field">This field is required</string>
+    
+    <!-- Navigation strings -->
+    <string name="channel_number">Ch %d</string>
+    <string name="retry">Retry</string>
+    <string name="settings">Settings</string>
+</resources>

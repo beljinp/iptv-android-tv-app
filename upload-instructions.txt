@@ -1,0 +1,18 @@
+Git Upload Instructions:
+
+1. Initialize git in your project folder:
+   git init
+
+2. Add your GitHub repository as remote:
+   git remote add origin https://github.com/YOUR_USERNAME/iptv-android-tv-app.git
+
+3. Add all files:
+   git add .
+
+4. Commit files:
+   git commit -m "Initial commit - IPTV Android TV App"
+
+5. Push to GitHub:
+   git push -u origin main
+
+Replace YOUR_USERNAME with your actual GitHub username.

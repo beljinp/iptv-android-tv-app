@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme for TV -->
+    <style name="Theme.Leanback" parent="Theme.Leanback.Browse">
+        <item name="android:colorPrimary">@color/primary_color</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark_color</item>
+        <item name="android:colorAccent">@color/accent_color</item>
+        <item name="android:windowBackground">@color/background_color</item>
+    </style>
+
+    <!-- Browse fragment theme -->
+    <style name="Theme.Leanback.Browse" parent="Theme.Leanback">
+        <item name="browsePaddingStart">@dimen/lb_browse_padding_start</item>
+        <item name="browsePaddingEnd">@dimen/lb_browse_padding_end</item>
+        <item name="browsePaddingTop">@dimen/lb_browse_padding_top</item>
+        <item name="browsePaddingBottom">@dimen/lb_browse_padding_bottom</item>
+    </style>
+
+    <!-- Guided step theme for setup -->
+    <style name="Theme.Leanback.GuidedStep" parent="Theme.Leanback.GuidedStep.Half">
+        <item name="guidedStepTheme">@style/GuidedStepTheme</item>
+    </style>
+
+    <style name="GuidedStepTheme" parent="Widget.Leanback.GuidedStepTheme">
+        <item name="guidedStepBackground">@color/background_color</item>
+    </style>
+</resources>
