@@ -31,7 +31,7 @@ class MediaItemPresenter : Presenter() {
         return ViewHolder(cardView)
     }
 
-    override fun onBindViewHolder(viewHolder: ViewHolder, item: Any) {
+    override fun onBindViewHolder(viewHolder: ViewHolder, item: Any?) {
         val mediaItem = item as MediaItem
         val cardView = viewHolder.view as ImageCardView
 
@@ -45,7 +45,7 @@ class MediaItemPresenter : Presenter() {
                 .load(imageUrl)
                 .centerCrop()
                 .error(getDefaultImage(mediaItem))
-                .into(cardView.mainImageView)
+                .into(cardView.mainImageView!!)
         } else {
             cardView.mainImage = viewHolder.view.context.getDrawable(getDefaultImage(mediaItem))
         }
