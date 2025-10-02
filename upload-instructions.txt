@@ -4,7 +4,7 @@ Git Upload Instructions:
    git init
 
 2. Add your GitHub repository as remote:
-   git remote add origin https://github.com/YOUR_USERNAME/iptv-android-tv-app.git
+   git remote add origin https://github.com/beljinp/iptv-android-tv-app.git
 
 3. Add all files:
    git add .

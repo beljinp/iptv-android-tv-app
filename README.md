@@ -33,11 +33,20 @@ This app is pre-configured to work with starshare.net IPTV service.
 
 ## Build Status
 
-![Build Status](https://github.com/YOUR_USERNAME/iptv-android-tv-app/workflows/Build%20Android%20APK/badge.svg)
+![Build Status](https://github.com/beljinp/iptv-android-tv-app/workflows/Build%20Android%20APK/badge.svg)
 
 ## How to Build
 
 The APK is automatically built using GitHub Actions. Every push to the main branch triggers a new build.
+
+### Automatic Build with GitHub Actions
+
+1. Push your code to the `main` branch
+2. Go to the [Actions](../../actions) tab in your repository
+3. Wait for the "Build Android APK" workflow to complete (usually 5-10 minutes)
+4. Download the APK from the "Artifacts" section:
+   - `iptv-debug-apk` - for testing purposes
+   - `iptv-release-apk` - for production use
 
 ### Manual Build (if you have Android Studio)
 
