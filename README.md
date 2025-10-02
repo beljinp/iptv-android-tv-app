@@ -45,8 +45,7 @@ The APK is automatically built using GitHub Actions. Every push to the main bran
 2. Go to the [Actions](../../actions) tab in your repository
 3. Wait for the "Build Android APK" workflow to complete (usually 5-10 minutes)
 4. Download the APK from the "Artifacts" section:
-   - `iptv-debug-apk` - for testing purposes
-   - `iptv-release-apk` - for production use
+   - `iptv-debug-apk` - for testing purposes (automatically built)
 
 ### Manual Build (if you have Android Studio)
 
